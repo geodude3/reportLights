@@ -135,6 +135,8 @@ function ReportLights() {
                 </p>
             </b>
             <p style={{margin:20,marginLeft:1}}>{message}</p>
+                
+        <div  dangerouslySetInnerHTML={{__html: 
             <style>
   [data-custom-class='body'], [data-custom-class='body'] * {
           background: transparent !important;
@@ -191,6 +193,7 @@ word-break: break-word !important;
       <div style="color: #595959;font-size: 14px;font-family: Arial;padding-top:16px;">
       This privacy policy was created using Termly's <a style="color: rgb(48, 48, 241) !important;" href="https://termly.io/products/privacy-policy-generator/">Privacy Policy Generator</a>.
       </div>
+    }} />
 </div>
     )
 }
