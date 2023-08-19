@@ -135,6 +135,9 @@ function ReportLights() {
                 </p>
             </b>
             <p style={{margin:20,marginLeft:1}}>{message}</p>
+            <h2>Privacy Policy</h2>
+            <p>Mulgrave Light Reporter App does not collect or sell any user data.</p>
+            <p> No information is collected in the light reporting process, only the user provided username.</p>
         </div>
     )
 }
